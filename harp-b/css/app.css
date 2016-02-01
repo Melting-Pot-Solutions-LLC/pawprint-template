@@ -1,0 +1,352 @@
+
+/* Shared styles
+================================= */
+
+
+body { color: #FFFFFF; 
+      background-color: #00b27b;
+    }
+
+#white_text_blue_background { 
+    color: #00B27B;
+    background-color: #FFFFFF;
+    }
+
+#navigation 
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  min-height: 80px;
+  height: 80px;
+  text-align: center;
+  padding-top: 5px;
+  /* Adds shadow to the bottom of the bar */
+  -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+
+  /* Adds the transparent background */
+  background-color: rgba(0, 178, 123, 0.8);
+  color: rgba(0, 178, 123, 0.8);
+  z-index: 100;
+
+
+}
+
+#navigation a {
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+
+}
+
+
+
+h1 {
+  margin-bottom: 30px;
+	font-weight: 200;
+}
+
+h2, h3 {
+	color: #FFFFFF;
+  margin-top: 0;
+	margin-bottom: 16px;
+  text-align: center;
+}
+
+#heading_font_size{
+  font-size: 40px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 200;
+  line-height: 1.7;
+}
+
+/* Tighten up margin on last items */
+p:last-child,
+ul:last-child,
+blockquote:last-child {
+  margin-bottom: 0;
+}
+
+/* Remove box shadow from all buttons */
+.btn:active { box-shadow: none; }
+
+.section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#green_background
+{
+  background-color: #00b27b;
+}
+
+
+/* Navbar
+================================= */
+
+.navbar {
+  min-height: 60px;
+  margin-bottom: 0;
+  border: none;
+}
+
+.navbar-default {
+  background-color: #EEE;
+}
+
+.navbar-default .navbar-link:hover {
+  text-decoration: none;
+}
+
+.navbar-text {
+  margin-top: 20px;
+  margin-right: 0;
+	font-weight: 500;
+  margin-right: 20px;
+}
+
+.main-logo {
+  margin: auto;
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+  filter: brightness(50%);
+	background: url('../img/logo_3.png') no-repeat;
+
+    background-size:auto;
+}
+
+
+/* Jumbotron
+================================= */
+
+.jumbotron {
+  margin-bottom: 0;
+  padding: 100px 0;
+  color: #fff;
+  background-color: #a19100;
+  background-image: url("../img/background_cover4.jpg");
+  background-repeat:no-repeat;
+  /*background-size:auto;*/
+  width: 100%;
+  background-size: cover;
+}
+
+
+
+.jumbotron2 {
+  margin-bottom: 0;
+  padding: 100px 0;
+  color: #fff;
+  background-color: #00FF00;
+
+}
+
+.jumbotron .map{
+  margin-bottom: 0;
+  padding: 100px 0;
+  color: #fff;
+  background-color: #a19100;
+
+}
+
+.jumbotron h1 { margin-top: 0; }
+
+.jumbotron .btn {
+  margin-right: 10px;
+  padding: 12px 22px;
+  color: inherit;
+	border-width: 2px;
+	border-color: inherit;
+}
+
+.jumbotron .lead { margin-bottom: 50px; }
+
+.jumbotron .lead + p {
+  margin-bottom: 500px;
+	font-size: initial;
+}
+
+
+/* Benefits
+================================= */
+
+.benefit { margin-top: 50px; }
+
+.benefit i {
+  display: block;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: #79c6fc;
+  border-radius: 50%;
+}
+
+
+
+/* Callout
+================================= */
+
+.callout { background-color: #eee; }
+
+.callout h4 { margin-top: 0; }
+
+.btn-callout {
+  padding: 13px 16px;
+  width: 100%;
+  max-width: 300px;
+  font-size: 1.5em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.2);
+}
+
+
+/* Testimonials
+================================= */
+
+.testimonial { margin-top: 50px; }
+
+.quote {
+  margin-bottom: 30px;
+  padding: 20px 15px 0;
+  background: #f5f5f5;
+  border-radius: 5px;
+}
+.quote:after {
+  content: '';
+  position: relative;
+  top: 30px;
+  left: 20px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 20px 18px 0 18px;
+  border-color: #f5f5f5 transparent transparent transparent;
+}
+
+.person { margin-left: 25px; }
+.person .avatar {
+  float: left;
+  margin-right: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #00c6fc;ƒ
+  border-radius: 100px;
+}
+.person p {
+  position: relative;
+  top: 9px;
+  text-transform: uppercase;
+}
+.person p:nth-child(2) {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+.person p:nth-child(3) { font-size: 12px; }
+
+
+/* Signup
+================================= */
+
+.signup { background-color: #5C5C5C; }
+
+.signup form { margin-top: 50px; }
+
+.signup form + p { margin-top: 35px; }
+
+.signup form input {
+  border-width: 2px;
+  border-color: rgba(0,0,0,.2);
+  box-shadow: none;
+}
+
+.signup form input:focus { box-shadow: none; }
+
+
+/* Footer
+================================= */
+
+footer p { margin-bottom: 0; }
+
+.social {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.social > a {
+  display: inline-block;
+  margin-right: 10px;
+  color: inherit;
+  opacity: 0.5;
+}
+
+.social > a:hover,
+.social > a:focus {
+  color: inherit;
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    float: right;
+    margin-top: 0;
+  }
+
+  .social > a {
+    margin-left: 10px;
+  }
+}
+
+
+/* Media Queries
+================================= */
+/*
+@media (max-width: 991px) {
+	.jumbotron {
+		padding: 80px 0;
+	}
+  .jumbotron .lead {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 767px) {
+	.navbar {
+		min-height: 60px;
+	}
+  .navbar-text { margin-top: 16px; }
+	.jumbotron {
+    padding: 50px 0;
+	}
+  .jumbotron .lead {
+		margin-bottom: 30px;
+	}
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .benefit i {
+    display: inline-block;
+    margin-bttom: 0;
+  }
+  .signup form .btn {
+		width: 50%;
+	}
+}
+*/

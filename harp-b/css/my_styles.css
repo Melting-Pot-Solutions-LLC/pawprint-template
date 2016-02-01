@@ -1,0 +1,16 @@
+
+
+#white_color
+{
+	color: #FFFFFF;
+}
+
+#map_background
+{
+  background: url('../img/city_map3.png') no-repeat;
+  text-align: center;
+  background-size: cover;
+  padding-top:200px;
+  padding-bottom:200px;
+
+}

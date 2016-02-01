@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pawprint</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="css/app.css" rel="stylesheet">
+    <!-- Animate.css - a CSS animation library -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Crosscover -->
+    <link href="../crossover/sandbox/sandbox.css" rel="stylesheet">
+    <link href="crosscover.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.3.0/animate.min.css">
+
+
+
+
+  </head>
+  <body>
+
+    <!--Navbar -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:rgba(0, 178, 123, 0.7);">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>                        
+	      </button>
+	      <a class="navbar-brand" style="color:#FFFFFF;" href="#">PawPrint</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar" style="color:#FFFFFF;">
+	      <ul class="nav navbar-nav navbar-right" style="color:#FFFFFF;">
+	        <li class="active"><a href="#" style="background-color:rgba(0,128,0,0.5)"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+	        <li><a href="#" style="color:#FFFFFF;"><span class="glyphicon glyphicon-log-in"></span> Log in</a></li>
+	       	<li><a href="#" style="color:#FFFFFF;"><span class="glyphicon glyphicon-user"></span> Sign up</a></li> 
+	       	<li><a href="#" style="color:#FFFFFF;"><span class="glyphicon glyphicon-log-in"></span> Support us</a></li> 	
+	       	<li><a href="#" style="color:#FFFFFF;"><span class="glyphicon glyphicon-log-in"></span> About us</a></li> 
+	       	<li><a href="#" style="color:#FFFFFF;"><span class="glyphicon glyphicon-log-in"></span> Support us</a></li> 
+	       	<li><a href="#" style="color:#FFFFFF;"><span class="glyphicon glyphicon-log-in"></span> Blog</a></li> 	       	
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+     <!--End navbar -->
+
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" id="map_background">
+      <div class="container" >
+        <h1>LOGIN WITH YOUR FACEBOOK ACCOUNT</h1>
+      </div>
+
+
+
+
+		<div class="container">
+		  <h1>TELL US ABOUT YOUR DOG</h1>
+		  <form role="form">
+	  		<div class="form-group">
+	    	<label class="control-label">Choose the best picture of your dog:</label>
+			<input id="input-1" type="file" class="file">
+		    </div>
+		    <div class="form-group">
+		      <label for="email">Dog's name:</label>
+		      <input type="email" class="form-control" id="email" placeholder="Enter your pets name">
+		    </div>
+		    <div class="form-group">
+		      <label for="pwd">Dog's breed:</label>
+		        <select class="form-control" id="pets_name" placeholder="Enter your pet's name">
+		            <option>Choose your dog's breed</option>
+		            <option>Affenpinscher</option>
+		            <option>Afghan Hound</option>
+		            <option>Airedale Terrier</option>
+		            <option>Alaskan Malamute</option>
+		            <option>American Cocker Spaniel</option>
+		            <option>American Staffordshire Bull Terrier</option>
+		            <option>Anatolian Shepherd Dog</option>
+		            <option>Australian Cattle Dog</option>
+		            <option>Australian Kelpie</option>
+		            <option>Australian Shepherd Dog</option>
+		            <option>Australian Silky Terrier</option>
+		            <option>Australian Terrier</option>
+		            <option>Basenji</option>
+		            <option>Basset</option>
+		            <option>Fauve de Bretagne</option>
+		            <option>Basset Hound</option>
+		            <option>Beagle</option>
+		            <option>Bearded Collie</option>
+		            <option>Bedlington Terrier</option>
+		            <option>Belgian Shepherd Groenendael</option>
+		            <option>Belgian Shepherd Dog Laekenois</option>
+		            <option>Belgian Shepherd Dog Malinois</option>
+		            <option>Belgian Shepherd Tervueren</option>
+		            <option>Bernese Mountain Dog</option>
+		            <option>Bichon Frise</option>
+		            <option>Bloodhound</option>
+		            <option>Border Collie</option>
+		            <option>Border Terrier</option>
+		            <option>Borzoi</option>
+		            <option>Boston Terrier</option>
+		            <option>Bouvier des Flandres</option>
+		            <option>Boxer Dog</option>
+		            <option>Bracco Italiano</option>
+		            <option>Briard</option>
+		            <option>Brittany Dog</option>
+		            <option>Bulldogs</option>
+		            <option>Bullmastiff</option>
+		            <option>Bull Terrier</option>
+		            <option>Cairn Terrier</option>
+		            <option>Cavalier King Charles Spaniel</option>
+		            <option>Cavoodle</option>
+		            <option>Cesky Terrier</option>
+		            <option>Chesapeake Bay Retriever</option>
+		            <option>Chihuahua (Smooth Coat)</option>
+		            <option>Chinese Crested</option>
+		            <option>Chow Chow</option>
+		            <option>Chow Chow (Smooth)</option>
+		            <option>Clumber Spaniel</option>
+		            <option>Collie (Rough)</option>
+		            <option>Collie (Smooth)</option>
+		            <option>Curly-Coated Retriever</option>
+		            <option>Dachshund (Miniature Long Haired)</option>
+		            <option>Dachshund (Miniature Smooth)</option>
+		            <option>Dachshund (Miniature Wire Haired)</option>
+		            <option>Dachshund (Smooth Haired)</option>
+		            <option>Dachshund (Wire Haired)</option>
+		            <option>Dalmatian</option>
+		            <option>Dandie Dinmont Terrier</option>
+		            <option>Deerhound</option>
+		            <option>Dobermann Pinscher</option>
+		            <option>Dogue de Bordeaux</option>
+		            <option>English Cocker Spaniel</option>
+		            <option>English Setter</option>
+		            <option>English Springer Spaniel</option>
+		            <option>English Toy Terrier (Black and Tan)</option>
+		            <option>English Mastiff</option>
+		            <option>Field Spaniel</option>
+		            <option>Finnish Lapphund</option>
+		            <option>Finnish Spitz</option>
+		            <option>Flat-Coated Retriever</option>
+		            <option>Foxhound</option>
+		            <option>Fox Terrier Smooth Coat</option>
+		            <option>Fox Terrier Wire Coat</option>
+		            <option>French Bulldog</option>
+		            <option>German Shepherd Dog</option>
+		            <option>German Short-Haired Pointer</option>
+		            <option>German Spitz Klein</option>
+		            <option>German Wire-Haired Pointer</option>
+		            <option>Goldendoodle</option>
+		            <option>Golden Retriever</option>
+		            <option>Gordon Setter</option>
+		            <option>Great Dane</option>
+		            <option>Great Pyrenees</option>
+		            <option>Greyhound Dogs</option>
+		            <option>Great Pyrenean Mountain Dog</option>
+		            <option>Harrier Hound</option>
+		            <option>Havanese</option>
+		            <option>Hungarian Puli</option>
+		            <option>Hungarian Vizsla</option>
+		            <option>Hungarian Wire-Haired Vizsla</option>
+		            <option>Ibizan Hound</option>
+		            <option>Irish Setter</option>
+		            <option>Irish Terrier</option>
+		            <option>Irish Water Spaniel</option>
+		            <option>Irish Wolfhound</option>
+		            <option>Italian Greyhound</option>
+		            <option>Japanese Akita</option>
+		            <option>Japanese Chin</option>
+		            <option>Japanese Spitz</option>
+		            <option>Jug</option>
+		            <option>Keeshond</option>
+		            <option>Kerry Blue Terrier</option>
+		            <option>King Charles Spaniel</option>
+		            <option>Komondor</option>
+		            <option>Labradoodle</option>
+		            <option>Labrador Retriever</option>
+		            <option>Lakeland Terrier</option>
+		            <option>Leonberger</option>
+		            <option>Lhasa Apso</option>
+		            <option>Lowchen</option>
+		            <option>Miniature Bull Terrier</option>
+		            <option>Maltese Manchester Terrier</option>
+		            <option>Maremma Sheepdog</option>
+		            <option>Moodle</option>
+		            <option>Neapolitan Mastiff</option>
+		            <option>Newfoundland</option>
+		            <option>Norfolk Terrier</option>
+		            <option>Norwich Terrier</option>
+		            <option>Nova Scotia Duck Tolling Retriever</option>
+		            <option>Old English Sheepdog</option>
+		            <option>Papillon</option>
+		            <option>Parson Russell Terrier</option>
+		            <option>Pharaoh Hound</option>
+		            <option>Pinscher-Miniature</option>
+		            <option>Pointer Dog</option>
+		            <option>Pomeranian</option>
+		            <option>Poodle Miniature</option>
+		            <option>Poodle Standard</option>
+		            <option>Poodle Toy</option>
+		            <option>Portuguese Water Dog</option>
+		            <option>Pugs</option>
+		            <option>Pugalier</option>
+		            <option>Rhodesian</option>
+		            <option>Ridgeback</option>
+		            <option>Rottweiler</option>
+		            <option>Saluki</option>
+		            <option>Samoyed</option>
+		            <option>Schipperke</option>
+		            <option>Schnauzer Giant</option>
+		            <option>Schnauzer Miniature</option>
+		            <option>Schnauzer Standard</option>
+		            <option>Schnoodle</option>
+		            <option>Scoodle</option>
+		            <option>Scottish Terrier</option>
+		            <option>Shar Pei</option>
+		            <option>Shetland Sheepdog</option>
+		            <option>Shiba Inu</option>
+		            <option>Shih Tzu</option>
+		            <option>Siberian Husky</option>
+		            <option>Skye Terrier</option>
+		            <option>Sloughi</option>
+		            <option>Soft Coated Wheaten Terrier</option>
+		            <option>Spoodle</option>
+		            <option>Staffordshire Bull Terrier</option>
+		            <option>St Bernard Dog</option>
+		            <option>Sussex Spaniel</option>
+		            <option>Swedish Vallhund</option>
+		            <option>Tenterfield Terrier</option>
+		            <option>Tibetan Mastiff</option>
+		            <option>Tibetan Spaniel</option>
+		            <option>Tibetan Terrier</option>
+		            <option>Weimaraner</option>
+		            <option>Welsh Corgi (Cardigan)</option>
+		            <option>Welsh Corgi (Pembroke)</option>
+		            <option>Welsh Springer Spaniel</option>
+		            <option>Welsh Terrier</option>
+		            <option>West Highland</option>
+		            <option>White Terrier</option>
+		            <option>Whippet</option>
+		            <option>Yorkshire Terrie</option>
+		          </select>
+		  
+		    </div>
+
+		    <div class="form-group">
+		      <label id="label" for="email">Comments:</label>
+		        <textarea class="form-control" rows="5" placeholder="Enter as much information about your dog as you can"></textarea>
+		    </div>
+
+		    <div class="checkbox">
+		      <label><input type="checkbox">Remember me</label>
+		    </div>
+
+
+
+		    <button type="submit" class="btn btn-success">Submit</button>
+		  </form>
+		</div>
+
+      
+    </div> 
+       <!-- End Jumbotron -->
+
+
+
+
+
+
+
+
+    <!-- JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+
+
+    <script>
+    wow = new WOW(
+      {
+        mobile: false // Disable on mobile
+      }
+    )
+    wow.init();
+    </script>
+
+  </body>
+</html>
